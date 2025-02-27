@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    container_name: ibkr
+    environment:
+      IBKR_ACCOUNT_ID: "U1234567"
+    ports:
+      - "5001:5001"
+  
